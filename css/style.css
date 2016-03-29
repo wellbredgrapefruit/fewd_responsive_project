@@ -64,13 +64,14 @@ h3 {
 }
 
 .contact-container {
-  padding: 30px 0px;
+  padding: 30px 0px 50px 0px;
   text-align: center;
 }
 
 .contact-info {
   display: block;
   font-weight: bold;
+  margin-bottom: -20px;
 }
 
 .contact-info h3 {
@@ -154,5 +155,70 @@ footer a {
 
 /** Styles for desktop display **/
 @media (min-width: 1024px) {
+  h1 {
+  	float: left;
+  	padding: 0px;
+  	margin: 50px 0 30px 20px;
+  	font-size: 1.5em;
+  }
 
+  nav {
+  	margin: 50px 20px 30px 0;
+  	float: right;
+  }
+
+  nav a {
+    display: inline-block;
+    background-color: #fafafa;
+    padding: 0px 15px;
+    font-size: 0.9em;
+  }
+
+  .profile {
+  	padding: 0px 20px;
+  	clear: both;
+  	overflow: auto;
+  	font-size: 1.25em;
+  	text-align: left;
+  }
+
+  .profile p {
+  	margin-top: 0px;
+  }
+
+  .profile img {
+  	width: 285px;
+  	float: right;
+  	margin-left: 50px;
+  }
+
+  .portfolio-card {
+  	display: inline-block;
+  	vertical-align: top;
+  	width: 30%;
+  	margin-bottom: 30px;
+  }
+
+  .portfolio-card p {
+  	margin: 0px 30px;
+  }
+
+  .portfolio-container {
+  	overflow: auto;
+  }
+
+  .contact-container p {
+  	font-size: 1.3em;
+  	max-width: 600px;
+  	margin: 10px auto;
+  }
+
+  .mobile-nav-link {
+  	display: none;
+  }
+
+  .normal-nav-link {
+  	display: inline-block;
+  	margin-left: 20px;
+  }
 }

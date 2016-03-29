@@ -95,6 +95,25 @@ footer a {
   font-size: 0.8em;
 }
 
+.skills-container {
+  text-align: center;
+}
+
+.skills-container ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.skills-container li {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  margin: 5px 0px;
+}
+
 .normal-nav-link {
   display: none;
 }
@@ -150,6 +169,12 @@ footer a {
   .normal-nav-link {
   	display: inline-block;
   	margin-left: 20px;
+  }
+
+  .skills-container li {
+    display: inline-block;
+    width: 45%;
+    margin: 5px 5px;
   }
 }
 
@@ -220,5 +245,11 @@ footer a {
   .normal-nav-link {
   	display: inline-block;
   	margin-left: 20px;
+  }
+
+  .skills-container li {
+    display: inline-block;
+    width: 30%;
+    margin: 5px 5px;
   }
 }

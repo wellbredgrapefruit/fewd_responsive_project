@@ -5,11 +5,19 @@
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #FAFAFA;
+}
+
+a { 
+  color: #1F71AC;
+}
+
+h1, h2, h3 {
+  color: #064572;
 }
 
 p {
-  color: #7f7f7f;
+  color: #7F7F7F;
 }
 
 nav a {
@@ -72,6 +80,7 @@ h3 {
   display: block;
   font-weight: bold;
   margin-bottom: -20px;
+  color: #064572;
 }
 
 .contact-info h3 {
@@ -84,8 +93,9 @@ footer {
   width: 95%;
   margin: 0px auto;
   padding: 15px 0px;
-  border-top: solid 2px #E7E7E7;
+  border-top: solid 2px #064572;
   font-weight: bold;
+  color: #064572;
 }
 
 footer a {

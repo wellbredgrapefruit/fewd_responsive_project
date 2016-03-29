@@ -1,0 +1,95 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #4B4B4B;
+  line-height: 1.5em;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+p {
+  color: #7f7f7f;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #fff;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  margin: 5px 0px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 0px;
+  font-size: 1em;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.profile img {
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.portfolio-container {
+  background-color: #fff;
+  padding: 30px 0px;
+}
+
+.portfolio-card {
+  text-align: center;
+  padding: 10px;
+}
+
+.portfolio-card img {
+  width: 100%;
+}
+
+.contact-container {
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.contact-info {
+  display: block;
+  font-weight: bold;
+}
+
+.contact-info h3 {
+  display: inline-block;
+  font-size: 1em;
+  margin-right: 15px;
+}
+
+footer {
+  width: 95%;
+  margin: 0px auto;
+  padding: 15px 0px;
+  border-top: solid 2px #E7E7E7;
+  font-weight: bold;
+}
+
+footer a {
+  float: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+}

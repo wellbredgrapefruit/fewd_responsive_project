@@ -10,6 +10,7 @@ body {
 
 a { 
   color: #1F71AC;
+  text-decoration: none;
 }
 
 h1, h2, h3 {
@@ -20,10 +21,9 @@ p {
   color: #7F7F7F;
 }
 
-nav a {
+.main-nav a {
   display: block;
   text-align: center;
-  text-decoration: none;
   font-weight: bold;
   background-color: #fff;
   text-transform: uppercase;
@@ -98,7 +98,7 @@ footer {
   color: #064572;
 }
 
-footer a {
+footer nav {
   float: right;
   text-transform: uppercase;
   text-decoration: none;
@@ -124,17 +124,17 @@ footer a {
   margin: 5px 0px;
 }
 
-.normal-nav-link {
+.footer-nav-normal {
   display: none;
 }
 
 /** Styles for tablet display **/
 @media (min-width: 768px) and (max-width: 1024px) {
-  nav {
+  .main-nav {
   	text-align: center;
   }
 
-  nav a {
+  .main-nav a {
     display: inline-block;
     background-color: #fafafa;
     padding: 0px 15px;
@@ -172,12 +172,15 @@ footer a {
   	font-size: 1.3em;
   }
 
-  .mobile-nav-link {
+  .footer-nav-mobile {
   	display: none;
   }
 
-  .normal-nav-link {
+  .footer-nav-normal {
   	display: inline-block;
+  }
+
+  .footer-nav-normal a {
   	margin-left: 20px;
   }
 
@@ -197,12 +200,12 @@ footer a {
   	font-size: 1.5em;
   }
 
-  nav {
+  .main-nav {
   	margin: 50px 20px 30px 0;
   	float: right;
   }
 
-  nav a {
+  .main-nav a {
     display: inline-block;
     background-color: #fafafa;
     padding: 0px 15px;
@@ -248,12 +251,15 @@ footer a {
   	margin: 10px auto;
   }
 
-  .mobile-nav-link {
+  .footer-nav-mobile {
   	display: none;
   }
 
-  .normal-nav-link {
+  .footer-nav-normal {
   	display: inline-block;
+  }
+
+  .footer-nav-normal a {
   	margin-left: 20px;
   }
 

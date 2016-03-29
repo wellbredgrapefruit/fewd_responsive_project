@@ -93,3 +93,66 @@ footer a {
   text-decoration: none;
   font-size: 0.8em;
 }
+
+.normal-nav-link {
+  display: none;
+}
+
+/** Styles for tablet display **/
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav {
+  	text-align: center;
+  }
+
+  nav a {
+    display: inline-block;
+    background-color: #fafafa;
+    padding: 0px 15px;
+    font-size: 0.9em;
+  }
+
+  .profile {
+  	overflow: auto;
+  	font-size: 1.25em;
+  	text-align: left;
+  }
+
+  .profile img {
+  	width: 285px;
+  	float: right;
+  	margin-left: 10px;
+  }
+
+  .portfolio-card {
+  	display: inline-block;
+  	vertical-align: top;
+  	width: 45%;
+  	margin-bottom: 30px;
+  }
+
+  .portfolio-card p {
+  	margin: 0px 30px;
+  }
+
+  .portfolio-container {
+  	overflow: auto;
+  }
+
+  .contact-container p {
+  	font-size: 1.3em;
+  }
+
+  .mobile-nav-link {
+  	display: none;
+  }
+
+  .normal-nav-link {
+  	display: inline-block;
+  	margin-left: 20px;
+  }
+}
+
+/** Styles for desktop display **/
+@media (min-width: 1024px) {
+
+}
